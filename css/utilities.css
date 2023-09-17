@@ -1,0 +1,50 @@
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 6px 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.undertext {
+  color: #757575;
+}
+
+/* Flex Grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.flex-grid .row .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 15px 6px;
+  position: relative;
+}
+
+.flex-grid img:hover {
+  opacity: 0.8;
+}
+
+/* Flex Items */
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.flex-items > div {
+  padding: 0 10px;
+}
+
+.flex-items img {
+  filter: grayscale(80%);
+}
